@@ -1,0 +1,9 @@
+fake-useragent
+
+requests
+
+lxml
+
+bs4
+
+Pillow
