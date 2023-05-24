@@ -1,5 +1,5 @@
-imgdir:  动画gif
-tag:  动画
-query_word:  动画表情
-download_subdir:  ./iamges/动画gif
-upload_subdir:  ./uploaded_iamges/动画表情
+imgdir:  2017游泳世锦赛gif
+tag:  2017游泳世锦赛
+query_word:  体育运动
+download_subdir:  ./iamges/2017游泳世锦赛gif
+upload_subdir:  ./uploaded_iamges/体育运动

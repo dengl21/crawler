@@ -1,7 +1,3 @@
 # Automatically generated
 # duptype id depth size device inode priority name
-DUPTYPE_FIRST_OCCURRENCE 114 0 203822 48 562949954114857 3 ./iamges/动画gif/GIF动画练习|UI|图标|cissymary_-_原创作品_-_站酷_(ZCOOL).gif
-DUPTYPE_WITHIN_SAME_TREE -114 0 203822 48 562949954114876 3 ./iamges/动画gif/gif动画图片.gif
-DUPTYPE_FIRST_OCCURRENCE 25 0 227143 48 562949954114689 3 ./iamges/动画gif/gif小动画_-_原创作品_-_站酷(zcool).gif
-DUPTYPE_WITHIN_SAME_TREE -25 0 227143 48 562949954114892 3 ./iamges/动画gif/gif动画64_gif动画64分享展示2.gif
 # end of file
