@@ -18,7 +18,7 @@ query_word_list = sample(query_word_list, 10)
 # query_word_list = ["惊讶", "愤怒", "人物喜悦", "烦恼", "悲伤", "恐惧", "疑惑"]
 # query_word_list = ["动画表情包", "动画" , "卡通", "卡通表情包"]
 
-for query_word in query_word_list[1:]:
+for query_word in query_word_list:
     if (os.path.exists(f"./iamges/{query_word}gif")):
         continue
     query_word += "gif"

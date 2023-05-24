@@ -153,6 +153,8 @@ class Gifuploader(object):
                     with open('./data/uploadlog.txt', "a") as f:
                         print(imgdir+f"----图像上传{self.pic_number}张完成--------->\n", file=f)
                     return
+                
+            print(imgdir+f"----图像上传{self.pic_number}张完成--------->\n")
 
 if __name__ == '__main__':
     uploader = Gifuploader()
