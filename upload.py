@@ -115,10 +115,10 @@ class Gifuploader(object):
             query_word = self.fix_query_word(query_word)
             # if(query_word == "gif" or query_word == "人物反应" or query_word == "体育运动" or query_word == "动物世界" or query_word == "动画表情"):
             #     continue
-            if not (query_word == "人物反应"):#  or query_word == "体育运动" or query_word == "人物反应"):
-                continue
-            if (tag == "人物反应"):#  or query_word == "体育运动" or query_word == "人物反应"):
-                continue
+            # if not (query_word == "动画表情"):#  or query_word == "体育运动" or query_word == "人物反应"):
+            #     continue
+            # if (tag == "动画表情"):#  or query_word == "体育运动" or query_word == "人物反应"):
+            #     continue
             # if(tag == "哪吒之魔童降世"):
             #     continue
             # if(tag == "天坑鹰猎"):
