@@ -14,7 +14,7 @@ query_word_list = jsoninfo["all"]
 
 basel_query_words = ["人物反应", "体育运动", "体育", "运动", "动画表情", "动物世界", "动物", "影视片段", "影视", "电影", "电视剧", "可爱", "沙雕", "食物", "综艺", "表情包", "明星", "躺平", "搞笑", "动画", "二次元", "动漫", "游戏", "惊讶", "愤怒", "人物喜悦", "烦恼", "悲伤", "恐惧", "疑惑", "动画表情包", "动画" , "卡通", "卡通表情包"]
 query_word_list = basel_query_words + query_word_list
-query_word_list = sample(query_word_list, 10) 
+query_word_list = sample(query_word_list, 5) 
 # query_word_list = ["惊讶", "愤怒", "人物喜悦", "烦恼", "悲伤", "恐惧", "疑惑"]
 # query_word_list = ["动画表情包", "动画" , "卡通", "卡通表情包"]
 
@@ -22,7 +22,7 @@ for query_word in query_word_list:
     if (os.path.exists(f"./iamges/{query_word}gif")):
         continue
     query_word += "gif"
-    commond = f"python baidugif.py --json_count 5 --query_word {query_word}"
+    commond = f"python baidugif.py --json_count 3 --query_word {query_word}"
     print("commond: ", commond)
     os.system(commond)
     break
@@ -31,7 +31,7 @@ for query_word in query_word_list:
     # if (os.path.exists(f"./iamges/{query_word}gif")):
     #     continue
     query_word += "gif"
-    commond = f"python binggif.py --countNum 100 --query_word {query_word}"
+    commond = f"python binggif.py --countNum 50 --query_word {query_word}"
     print("commond: ", commond)
     os.system(commond)
     # break

@@ -154,8 +154,8 @@ class BingImageSpider(object):
                 first_href=link_list[0].attrs["href"]
                 last_href=link_list[-2].attrs["href"]
                 page_num = int(self.last_page_rule.match(last_href).groups()[0])
-                if (page_num > 5):
-                    page_num = 5
+                if (page_num > 3):
+                    page_num = 3
                 numbers = list(self.first_page_rule.match(first_href).groups())
                 # print("len: ",len)
                 # print(numbers)
